@@ -1,0 +1,16 @@
+C:\Users\maria.rossi\Desktop\IA_machineLearning\ReteNeurale\ReteNeurale\bin\Debug\net8.0\ReteNeurale.exe
+C:\Users\maria.rossi\Desktop\IA_machineLearning\ReteNeurale\ReteNeurale\bin\Debug\net8.0\ReteNeurale.deps.json
+C:\Users\maria.rossi\Desktop\IA_machineLearning\ReteNeurale\ReteNeurale\bin\Debug\net8.0\ReteNeurale.runtimeconfig.json
+C:\Users\maria.rossi\Desktop\IA_machineLearning\ReteNeurale\ReteNeurale\bin\Debug\net8.0\ReteNeurale.dll
+C:\Users\maria.rossi\Desktop\IA_machineLearning\ReteNeurale\ReteNeurale\bin\Debug\net8.0\ReteNeurale.pdb
+C:\Users\maria.rossi\Desktop\IA_machineLearning\ReteNeurale\ReteNeurale\obj\Debug\net8.0\ReteNeurale.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\maria.rossi\Desktop\IA_machineLearning\ReteNeurale\ReteNeurale\obj\Debug\net8.0\ReteNeurale.AssemblyInfoInputs.cache
+C:\Users\maria.rossi\Desktop\IA_machineLearning\ReteNeurale\ReteNeurale\obj\Debug\net8.0\ReteNeurale.AssemblyInfo.cs
+C:\Users\maria.rossi\Desktop\IA_machineLearning\ReteNeurale\ReteNeurale\obj\Debug\net8.0\ReteNeurale.csproj.CoreCompileInputs.cache
+C:\Users\maria.rossi\Desktop\IA_machineLearning\ReteNeurale\ReteNeurale\obj\Debug\net8.0\ReteNeurale.sourcelink.json
+C:\Users\maria.rossi\Desktop\IA_machineLearning\ReteNeurale\ReteNeurale\obj\Debug\net8.0\ReteNeurale.dll
+C:\Users\maria.rossi\Desktop\IA_machineLearning\ReteNeurale\ReteNeurale\obj\Debug\net8.0\refint\ReteNeurale.dll
+C:\Users\maria.rossi\Desktop\IA_machineLearning\ReteNeurale\ReteNeurale\obj\Debug\net8.0\ReteNeurale.pdb
+C:\Users\maria.rossi\Desktop\IA_machineLearning\ReteNeurale\ReteNeurale\obj\Debug\net8.0\ReteNeurale.genruntimeconfig.cache
+C:\Users\maria.rossi\Desktop\IA_machineLearning\ReteNeurale\ReteNeurale\obj\Debug\net8.0\ref\ReteNeurale.dll
+C:\Users\maria.rossi\Desktop\IA_machineLearning\ReteNeurale\ReteNeurale\bin\Debug\net8.0\pesi.txt

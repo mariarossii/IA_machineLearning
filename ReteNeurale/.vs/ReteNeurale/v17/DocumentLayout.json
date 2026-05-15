@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\maria.rossi\\Desktop\\machine learning\\ReteNeurale\\",
+  "WorkspaceRootPath": "C:\\Users\\maria.rossi\\Desktop\\IA_machineLearning\\ReteNeurale\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9D617BE2-FDAD-42ED-9B68-6DD0F028483B}|ReteNeurale\\ReteNeurale.csproj|c:\\users\\maria.rossi\\desktop\\machine learning\\reteneurale\\reteneurale\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9D617BE2-FDAD-42ED-9B68-6DD0F028483B}|ReteNeurale\\ReteNeurale.csproj|c:\\users\\maria.rossi\\desktop\\ia_machinelearning\\reteneurale\\reteneurale\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9D617BE2-FDAD-42ED-9B68-6DD0F028483B}|ReteNeurale\\ReteNeurale.csproj|solutionrelative:reteneurale\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -14,24 +14,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\maria.rossi\\Desktop\\machine learning\\ReteNeurale\\ReteNeurale\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\maria.rossi\\Desktop\\IA_machineLearning\\ReteNeurale\\ReteNeurale\\Program.cs",
               "RelativeDocumentMoniker": "ReteNeurale\\Program.cs",
-              "ToolTip": "C:\\Users\\maria.rossi\\Desktop\\machine learning\\ReteNeurale\\ReteNeurale\\Program.cs",
+              "ToolTip": "C:\\Users\\maria.rossi\\Desktop\\IA_machineLearning\\ReteNeurale\\ReteNeurale\\Program.cs",
               "RelativeToolTip": "ReteNeurale\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAIwHYAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-14T07:45:51.368Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

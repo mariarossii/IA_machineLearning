@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\maria.rossi\\Desktop\\machine learning\\ReteNeurale\\ReteNeurale\\ReteNeurale.csproj",
+      "projectUniqueName": "C:\\Users\\maria.rossi\\Desktop\\IA_machineLearning\\ReteNeurale\\ReteNeurale\\ReteNeurale.csproj",
       "projectName": "ReteNeurale",
-      "projectPath": "C:\\Users\\maria.rossi\\Desktop\\machine learning\\ReteNeurale\\ReteNeurale\\ReteNeurale.csproj",
+      "projectPath": "C:\\Users\\maria.rossi\\Desktop\\IA_machineLearning\\ReteNeurale\\ReteNeurale\\ReteNeurale.csproj",
       "packagesPath": "C:\\Users\\maria.rossi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\maria.rossi\\Desktop\\machine learning\\ReteNeurale\\ReteNeurale\\obj\\",
+      "outputPath": "C:\\Users\\maria.rossi\\Desktop\\IA_machineLearning\\ReteNeurale\\ReteNeurale\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

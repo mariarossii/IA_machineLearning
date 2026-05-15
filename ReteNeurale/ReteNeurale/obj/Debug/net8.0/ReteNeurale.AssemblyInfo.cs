@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ReteNeurale")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b3f0cce4b37e75c04f5e9039508c649d1fa78301")]
 [assembly: System.Reflection.AssemblyProductAttribute("ReteNeurale")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ReteNeurale")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

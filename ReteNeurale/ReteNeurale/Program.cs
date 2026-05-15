@@ -1,19 +1,18 @@
-﻿using System.Globalization;
+﻿//Rossi Maria 5H
+//Progetto sull'intelligenza artificiale
+using System.Globalization;
 using System.IO;
 using System.Runtime.InteropServices;
 
 namespace ReteNeurale
 {
-
-
-
-class Program
+    class Program
     {
-        const int FEATURES = 5;
-        const float THRESHOLD = 5f;
+        const int   FEATURES  = 5;  //il percettone ha 5 input
+        const float THRESHOLD = 5f; //soglia usata nella funzione di attivazione
 
         //funzione di attivazione (step)
-        int Activation(float x)
+        static int Activation(float x)
         {
             if (x > THRESHOLD)
                 return 1;
@@ -21,9 +20,12 @@ class Program
                 return 0;
         }
 
-        int CaricaPesi(string filename, float[] weights, out float bias)
+        //funzione con cui carico il peso dei campi dal file txt presente nella cartella
+        static int CaricaPesi(string filename, float[] weights, out float bias)
         {
             bias = 0f;
+
+            //errore per file non trovato (deve essere nella cartella)
             if (!File.Exists(filename))
             {
                 Console.WriteLine($"Errore: file {filename} non trovato");
@@ -32,14 +34,17 @@ class Program
 
             try
             {
+                //streamreader per la lettura del file
                 using (var reader = new StreamReader(filename))
                 {
                     for (int i = 0; i < FEATURES; i++)
                     {
                         string? line = reader.ReadLine();
+                        
+                        //se la riga non riguarda il peso di un campo
                         if (line == null || !line.Contains("Peso"))
                         {
-                            Console.WriteLine($"Errore nella lettura del peso {i}")
+                            Console.WriteLine($"Errore nella lettura del peso {i}");
                             return 0;
                         }
 
@@ -58,6 +63,7 @@ class Program
                         return 0;
                     }
 
+                    //lettura del bias che nel mio caso è 0
                     if (!float.TryParse(biasLine.Split(':')[1], out bias))
                     {
                         Console.WriteLine("Errore nella conversione del bias");
@@ -76,7 +82,8 @@ class Program
             return 1;
         }
 
-        int Prevedi(float[] weights, float bias, int[] input)
+        //calcolo dell'esito usando la formula che tiene conto dei pesi per campo e del valore estratto in input
+        static int Prevedi(float[] weights, float bias, int[] input)
         {
             float somma = bias;
 
@@ -93,41 +100,43 @@ class Program
             float[] weights = new float[FEATURES];
             float bias;
 
-            if (CaricaPesi("pesi.txt",  weights, out bias) == 0)
+            if (CaricaPesi("pesi.txt", weights, out bias) == 0)
             {
                 return;
             }
 
             Console.WriteLine("Inserisci i dati:");
 
+            //array che contiene le risposte dell'utente
             int[] input = new int[FEATURES];
 
-            Console.WriteLine("Artista famoso? (1=Sì, 0=No): ");
+            Console.Write("Artista famoso? (1=Sì, 0=No): ");
             input[0] = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Bel meteo? (1=Sì, 0=No): ");
+            Console.Write("Bel meteo? (1=Sì, 0=No): ");
             input[1] = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Amici presenti? (1=Sì, 0=No): ");
+            Console.Write("Amici presenti? (1=Sì, 0=No): ");
             input[2] = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Cibo buono? (1=Sì, 0=No): ");
+            Console.Write("Cibo buono? (1=Sì, 0=No): ");
             input[3] = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Alcool disponibile? (1=Sì, 0=No): ");
+            Console.Write("Alcool disponibile? (1=Sì, 0=No): ");
             input[4] = int.Parse(Console.ReadLine());
 
+            //l'esito dipende dal calcolo che si effettua con la funzione Prevedi
             int decisione = Prevedi(weights, bias, input);
 
-            if (decisione == 1)
+            if (decisione == 1) //esito positivo
             {
-                Console.WriteLine("VAI AL CONCERTO!!!!");
+                Console.WriteLine("\nVAI AL CONCERTO!!!!");
             }
             else
             {
-                Console.WriteLine("Resta a casa valà");
+                Console.WriteLine("\nResta a casa valà");
             }
         }
     }
-
 }
+
