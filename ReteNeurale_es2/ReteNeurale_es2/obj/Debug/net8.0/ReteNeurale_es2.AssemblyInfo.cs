@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("ReteNeurale")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("ReteNeurale_es2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c1de9b1b8ce8b4ec9aa2ee06fbfb1ddf97b795dd")]
-[assembly: System.Reflection.AssemblyProductAttribute("ReteNeurale")]
-[assembly: System.Reflection.AssemblyTitleAttribute("ReteNeurale")]
+[assembly: System.Reflection.AssemblyProductAttribute("ReteNeurale_es2")]
+[assembly: System.Reflection.AssemblyTitleAttribute("ReteNeurale_es2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Generato dalla classe WriteCodeFragment di MSBuild.

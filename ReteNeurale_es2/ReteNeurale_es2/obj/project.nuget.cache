@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "L4I5q72uJyA=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\maria.rossi\\Desktop\\IA_machineLearning\\ReteNeurale_es2\\ReteNeurale_es2\\ReteNeurale_es2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\maria.rossi\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.22\\microsoft.windowsdesktop.app.ref.8.0.22.nupkg.sha512",
+    "C:\\Users\\maria.rossi\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.22\\microsoft.netcore.app.ref.8.0.22.nupkg.sha512",
+    "C:\\Users\\maria.rossi\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.22\\microsoft.aspnetcore.app.ref.8.0.22.nupkg.sha512",
+    "C:\\Users\\maria.rossi\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.22\\microsoft.netcore.app.host.win-x64.8.0.22.nupkg.sha512"
+  ],
+  "logs": []
+}
